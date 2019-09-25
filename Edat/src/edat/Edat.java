@@ -28,6 +28,7 @@ public class Edat {
         int edat = entrada.nextInt();
         int descompte = 0;
         
+            
         if ( edat <= 2) {
             descompte = 100;
         } else if  ( edat <= 9 ) {

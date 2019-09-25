@@ -23,6 +23,30 @@ public class MajusculaMinusculaNumero {
         System.out.println("Introdueix un caràcter: ");
         char caracter = entrada.next().charAt(0);
         
+        switch (caracter) {
+            case 'a':
+            case 'b':
+            case 'c':
+            // totes les minúscules
+                System.out.println("És una minúscula");
+                break;
+            case 'A':
+            case 'B':
+            case 'C':
+            // Totes les majúscules
+                System.out.println("És una majúscula");
+                break;
+            case '1':
+            case '2':
+            case '3':
+            // Tots els números
+                System.out.println("És un número");
+                break;
+            default:
+                System.out.println("És un símbol");
+        }
+        
+        /*
         if ( caracter >= 'a' && caracter <= 'z' )
             System.out.println("És minúscula");
         else if ( caracter >= 'A' && caracter <= 'Z' )
@@ -30,7 +54,7 @@ public class MajusculaMinusculaNumero {
         else if ( caracter >= '0' && caracter <= '9' )
             System.out.println("És un número");
         else 
-            System.out.println("És un símbol");
+            System.out.println("És un símbol");*/
     }
     
 }

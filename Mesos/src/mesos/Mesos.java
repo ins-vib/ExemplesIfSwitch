@@ -22,30 +22,46 @@ public class Mesos {
         
         System.out.println("Introdueix un número de mes");
         int mes = entrada.nextInt();
-        if ( mes == 1 )
-            System.out.println("Gener");
-        else if ( mes == 2 )
-            System.out.println("Febrer");
-        else if ( mes == 3 )
-            System.out.println("Març");
-        else if ( mes == 4 )
-            System.out.println("Abril");
-        else if ( mes == 5 )
-            System.out.println("Maig");
-        else if ( mes == 6 )
-            System.out.println("Juny");
-        else if ( mes == 7 )
-            System.out.println("Juliol");
-        else if ( mes == 8 )
-            System.out.println("Agost");
-        else if ( mes == 9 )
-            System.out.println("Setembre");
-        else if ( mes == 10 )
-            System.out.println("Octubre");
-        else if ( mes == 11 )
-            System.out.println("Novembre");
-        else if ( mes == 12 )
-            System.out.println("Desembre");
+        switch (mes) {
+            case 1:
+                System.out.println("Gener");
+                break;
+            case 2:
+                System.out.println("Febrer");
+                break;
+            case 3:
+                System.out.println("Març");
+                break;
+            case 4:
+                System.out.println("Abril");
+                break;
+            case 5:
+                System.out.println("Maig");
+                break;
+            case 6:
+                System.out.println("Juny");
+                break;
+            case 7:
+                System.out.println("Juliol");
+                break;
+            case 8:
+                System.out.println("Agost");
+                break;
+            case 9:
+                System.out.println("Setembre");
+                break;
+            case 10:
+                System.out.println("Octubre");
+                break;
+            case 11:
+                System.out.println("Novembre");
+                break;
+            case 12:
+                System.out.println("Desembre");
+                break;
+            default:
+                break;
+        }
       
     }
     

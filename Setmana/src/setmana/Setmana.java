@@ -31,6 +31,7 @@ public class Setmana {
             case 4:
             case 5:
                 System.out.println("No és cap de setmana");
+                break;
             case 6:
             case 7:
                 System.out.println("És cap de setmana");
